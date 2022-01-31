@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Verdana";
+    text-align: center;
+    font-size: 17px;
+}
+
+header {
+    height:100%;
+    min-height:1100px;
+    background-size:cover;
+    background-image:url("IMG_0139.jpg");
+}
+
+.hidden-spacer {
+    height: 50px
+}
+
+h4 {
+  text-align: center;
+}
+
+pre {
+
+  padding: 25px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Verdana";
+}
+
+/* Masonry */
+.masonry {
+  /* Masonry container */
+  column-count: 3;
+  column-gap: 2em;
+}
+
+.item {
+  /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+  .masonry {
+  column-count: 1;
+
+  header {
+    background-image:url("IMG_0139.jpg");
+    height:50px;
+  }
+}
+
+a {
+  text-align: center;
+}
